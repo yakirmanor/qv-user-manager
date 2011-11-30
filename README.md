@@ -29,7 +29,7 @@ Help screen
 Configuration
 -------------
 
-Add the user that is executing the tool to the "QlikView Management API" Windows group. This group does not exist by default and must be created. Restart the computer or log out 
+Add the user that is executing the tool to the "QlikView Management API" Windows group. This group does not exist by default and must be created. Restart the computer or log out and back in again to let Windows update the groups.
 
 Change the line below in qv-user-manager.exe.config file to reflect the server address of your QlikView Management Service.
 
