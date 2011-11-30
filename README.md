@@ -1,4 +1,4 @@
-![Screenshot of example application](/images/screenshot.png)
+![Screenshot of example application](/braathen/qv-user-manager/blob/master/images/screenshot.png)
 
 About
 =====
