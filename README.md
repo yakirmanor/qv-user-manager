@@ -1,3 +1,5 @@
+![Screenshot of example application](/images/screenshot.png)
+
 About
 =====
 
@@ -18,6 +20,7 @@ Help screen
 	  -a, --add=CAL|DMS          Add users or assign CALs [CAL|DMS]
 	  -r, --remove=CAL|DMS       Remove specified users or inactive CALs [CAL|DMS]
 	  -d, --document=VALUE       QlikView document(s) to perform actions on
+	  -o, --output=VALUE		 Output to filename.qvx
 	  -p, --prefix=VALUE         Use specified prefix for all users and CALs
 	  -V, --version              Show version information
 	  -?, -h, --help             Show usage information	
@@ -27,7 +30,7 @@ Help screen
 Configuration
 -------------
 
-Add the user that is executing the tool to the "QlikView Management API" Windows group. This group does not exist by default and must be created.
+Add the user that is executing the tool to the "QlikView Management API" Windows group. This group does not exist by default and must be created. Restart the computer or log out 
 
 Change the line below in qv-user-manager.exe.config file to reflect the server address of your QlikView Management Service.
 
@@ -85,7 +88,7 @@ Example for removing CALs:
 
 PowerShell examples:
 
-	:: Add CALs from Active Directory (script takes group and property as parameters)
+	:: Add CALs from Active Directory group (script takes group and property as parameters)
 	.\extras\PSEnumGroup.ps1 "CN=DL- Nordic All,OU=DL,OU=Activate Groups,DC=qliktech,DC=com" sAMAccountName | .\qv-user-manager.exe --add cal --prefix QTSEL\
 
 	:: Add Document CALs from an SQL Server (edit connection string in the script file)
