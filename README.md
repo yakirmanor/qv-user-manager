@@ -20,7 +20,6 @@ Help screen
 	  -a, --add=CAL|DMS          Add users or assign CALs [CAL|DMS]
 	  -r, --remove=CAL|DMS       Remove specified users or inactive CALs [CAL|DMS]
 	  -d, --document=VALUE       QlikView document(s) to perform actions on
-	  -o, --output=VALUE		 Output to filename.qvx
 	  -p, --prefix=VALUE         Use specified prefix for all users and CALs
 	  -V, --version              Show version information
 	  -?, -h, --help             Show usage information	
