@@ -1,7 +1,8 @@
 About
 =====
 
-this is a fork from braathen code at: <http://www.tech-recipes.com/rx/2513/powershell_enable_script_support/>
+this is a fork from braathen code at: <https://github.com/braathen/qv-user-manager/>
+
 this fork is to help adjust braathen code to QV11 and Visual studio 2012 and 2013
 
 first step
