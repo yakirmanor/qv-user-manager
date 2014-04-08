@@ -134,29 +134,15 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\QMSBackendService\QMS.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS1.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS3.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS4.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS5.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMS6.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\QMSBackendService\QMSBackendService.wsdl" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Service References\QMSBackendService\QMSBackendService1.wsdl" />
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.CALConfiguration.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.DirectoryServiceObject.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.DocumentFolder.datasource">
@@ -171,10 +157,61 @@
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.DocumentTask.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.DSProvider.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.DSResource.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.EDXStatus.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ExtensionUploadHandle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.Field.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.FieldContent.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.License.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.QDSDocumentSession.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.QDSSettings.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.QVSMessage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.QVSSettings.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.QVWSAuthentication.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.Report.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.SectionAccessTable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ServerObject.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ServerObjectMetaData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ServiceInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ServiceStatus.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.ServiceStatuseStatusFlag.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.TaskInfo.datasource">
@@ -189,6 +226,22 @@
     <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.TriggerEDXTaskResult.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\QMSBackendService\qv_user_manager.QMSBackendService.UserCALs.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\QMSBackendService\Service.wsdl" />
+    <None Include="Service References\QMSBackendService\Service.xsd" />
+    <None Include="Service References\QMSBackendService\Service1.wsdl" />
+    <None Include="Service References\QMSBackendService\Service1.xsd" />
+    <None Include="Service References\QMSBackendService\Service10.xsd" />
+    <None Include="Service References\QMSBackendService\Service2.xsd" />
+    <None Include="Service References\QMSBackendService\Service3.xsd" />
+    <None Include="Service References\QMSBackendService\Service4.xsd" />
+    <None Include="Service References\QMSBackendService\Service5.xsd" />
+    <None Include="Service References\QMSBackendService\Service6.xsd" />
+    <None Include="Service References\QMSBackendService\Service7.xsd" />
+    <None Include="Service References\QMSBackendService\Service8.xsd" />
+    <None Include="Service References\QMSBackendService\Service9.xsd" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

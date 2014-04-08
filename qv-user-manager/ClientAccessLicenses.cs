@@ -41,7 +41,7 @@ namespace qv_user_manager
             try
             {
                 // Initiate backend client
-                var backendClient = new QMSBackendClient();
+                var backendClient = new QMSClient();
 
                 // Get a time limited service key
                 ServiceKeyClientMessageInspector.ServiceKey = backendClient.GetTimeLimitedServiceKey();
@@ -132,7 +132,7 @@ namespace qv_user_manager
                     }
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -146,7 +146,7 @@ namespace qv_user_manager
             try
             {
                 // Initiate backend client
-                var backendClient = new QMSBackendClient();
+                var backendClient = new QMSClient();
 
                 // Get a time limited service key
                 ServiceKeyClientMessageInspector.ServiceKey = backendClient.GetTimeLimitedServiceKey();
@@ -177,7 +177,7 @@ namespace qv_user_manager
                     }
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -191,7 +191,7 @@ namespace qv_user_manager
             try
             {
                 // Initiate backend client
-                var backendClient = new QMSBackendClient();
+                var backendClient = new QMSClient();
 
                 // Get a time limited service key
                 ServiceKeyClientMessageInspector.ServiceKey = backendClient.GetTimeLimitedServiceKey();
@@ -262,7 +262,7 @@ namespace qv_user_manager
                     }
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -276,7 +276,7 @@ namespace qv_user_manager
             try
             {
                 // Initiate backend client
-                var backendClient = new QMSBackendClient();
+                var backendClient = new QMSClient();
 
                 // Get a time limited service key
                 ServiceKeyClientMessageInspector.ServiceKey = backendClient.GetTimeLimitedServiceKey();
@@ -306,7 +306,7 @@ namespace qv_user_manager
                     Console.WriteLine(config.UsageCALs.InLicense);
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }

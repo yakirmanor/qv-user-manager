@@ -20,17 +20,23 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:4799/QMS" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:4799/QMS/Service" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="QMS.xsd" MetadataType="Schema" ID="1404c752-e647-4dc2-a0f7-39f38fdd3408" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd1" />
-    <MetadataFile FileName="QMS1.xsd" MetadataType="Schema" ID="1f76dda9-0d5e-4ce7-8cf4-37a7a3f51d81" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd2" />
-    <MetadataFile FileName="QMS2.xsd" MetadataType="Schema" ID="8eb5b232-4929-4397-9dad-b94d1dd3a778" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd6" />
-    <MetadataFile FileName="QMS3.xsd" MetadataType="Schema" ID="339bddb1-ce51-48ab-b662-c2472f7036fd" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd3" />
-    <MetadataFile FileName="QMS4.xsd" MetadataType="Schema" ID="240c62ff-6ef2-4b76-845e-d3599b35df7a" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd5" />
-    <MetadataFile FileName="QMS5.xsd" MetadataType="Schema" ID="1306552f-8651-4a8c-9283-9a3493c66802" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd4" />
-    <MetadataFile FileName="QMS6.xsd" MetadataType="Schema" ID="7db8a802-2a6f-4137-a312-b18f75337fdc" SourceId="1" SourceUrl="http://sesth-rfn1:4799/QMS?xsd=xsd0" />
-    <MetadataFile FileName="QMSBackendService.wsdl" MetadataType="Wsdl" ID="b9c3eda3-32d5-4af0-bc59-4a33f1f5d684" SourceId="1" SourceUrl="http://localhost:4799/QMS" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="cc1c7e59-2f23-4ab4-abe2-d671f4efef81" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd6" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="31f43750-b8be-48d8-a2df-d3e138b4ecd4" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd1" />
+    <MetadataFile FileName="QMSBackendService1.wsdl" MetadataType="Wsdl" ID="e849dd57-1972-49f9-a357-af945356e456" SourceId="1" SourceUrl="http://localhost:4799/QMS/Service" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="5745e849-db97-41ac-b893-41711f20874f" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd3" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="91fa11e5-216a-42f1-a26c-85e80b771356" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?wsdl=wsdl0" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="1996807b-b963-4160-b6a8-06f3ab04e1d0" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd9" />
+    <MetadataFile FileName="Service4.xsd" MetadataType="Schema" ID="1d09488c-dd77-47ab-aee0-769bf1410352" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd5" />
+    <MetadataFile FileName="Service5.xsd" MetadataType="Schema" ID="8b22e07e-211f-4853-94b9-401245d8beea" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd0" />
+    <MetadataFile FileName="Service6.xsd" MetadataType="Schema" ID="41435716-af36-450e-a5eb-b379dc3d5837" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd7" />
+    <MetadataFile FileName="Service7.xsd" MetadataType="Schema" ID="6f87c2be-e812-45a5-921b-22dfaada1886" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd2" />
+    <MetadataFile FileName="Service8.xsd" MetadataType="Schema" ID="6bedbfcf-24ab-4b96-9b0e-3930b3741f2f" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd8" />
+    <MetadataFile FileName="Service9.xsd" MetadataType="Schema" ID="63f991d5-8ae1-452f-8fad-1c29748485ff" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd4" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="b45914ed-4f2b-4419-90bd-914ba8fd8a6d" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?wsdl=wsdl1" />
+    <MetadataFile FileName="Service10.xsd" MetadataType="Schema" ID="e3392332-e63e-4072-be5e-f1cdcca91e50" SourceId="1" SourceUrl="http://win-jsvlpr19hbb:4799/QMS/Service?xsd=xsd10" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
