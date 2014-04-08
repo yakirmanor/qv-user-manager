@@ -240,6 +240,11 @@ namespace qv_user_manager
 
                         // Get authorization meta data
                         var metaData = backendClient.GetDocumentMetaData(docNode, DocumentMetaDataScope.All);
+                        List<AssignedNamedCAL> currentCALs = metaData.Licensing.AssignedCALs.ToList();
+                        for (int a = 0; a < currentCALs.Count; a++)
+                        {
+                            Console.WriteLine(metaData.UserDocument.Name + ", " + currentCALs[a].UserName + ", " + currentCALs[a].LastUsed);
+                        }
 
                         // Check if PreloadMode is Restricted, if so get the dates
                         //var preloadMode = metaData.Server.Preload.Mode.ToString();
@@ -263,6 +268,7 @@ namespace qv_user_manager
                         if (relativePath != "")
                             relativePath += "\\";
 
+                        Console.WriteLine(String.Format("{0};{1};{2};{3};{4};{5};{6};{7};", relativePath + docNode.Name, server.Name, pluginClient, mobileClient, ajaxClient, download, metaData.DocumentInfo.Category, metaData.DocumentInfo.SourceName));
                         //Console.WriteLine(String.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10}", relativePath + docNode.Name, server.Name, preloadMode, loadedDays, between, pluginClient, mobileClient, ajaxClient, download, metaData.DocumentInfo.Category, metaData.DocumentInfo.SourceName));
                     }
                 }
