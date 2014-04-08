@@ -39,6 +39,7 @@ forth step
 	   and the Console.WriteLine with 'preloadMode, loadedDays, between' (or just edit the line)
 	d. build and run the project!
 	e. didn't work? 'Service key is missing', go to fifth step.
+	f. if you want a nicer solution for dosc see 'http://community.qlik.com/docs/DOC-3649'
 	
 fifth step
 -----------
