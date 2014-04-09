@@ -5,6 +5,14 @@ this is a fork from braathen code at: <https://github.com/braathen/qv-user-manag
 
 this fork is to help adjust braathen code to QV11 and Visual studio 2012 and 2013
 
+you may want to check this link before you start 'Qlikview Server CAL Manager':
+
+<http://community.qlik.com/docs/DOC-5281>
+
+and you should start with reading the 'QlikView Server Reference Manual 11'
+
+<http://d1cf4w4kkla6tb.cloudfront.net/qlikview/11.00/11414/QlikView%20Server%20Reference%20Manual_ENG.pdf>
+
 first step
 -----------
 
