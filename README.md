@@ -10,12 +10,12 @@ first step
 
 	download the code from braathen git
 	(you can download this code with all the updates but what's the fun in that...
-	plus braathen my update his code)
+	plus braathen may update his code)
 
 second step
 -----------
 
-	open the project in Visual Studio
+	open the solution explorer in Visual Studio
 	right click on 'QMSBackendService' and select 'Configure Service Reference...'
 	add the /Service to the link like so:
 	http://localhost:4799/QMS/Service 
@@ -24,7 +24,7 @@ second step
 third step
 -----------
 
-	again open the project in Visual Studio
+	again open the solution explorer
 	right click on 'QMSBackendService' and select 'Update Service Reference'
 	now build the project
 	and... oh no! so many bugs!!!
@@ -32,13 +32,14 @@ third step
 forth step
 -----------
 	
-	a. replace 'QMSBackendClient' in the entire project in 'QMSClient'
-	b. replace all unrecognised 'Exception' in 'System.Exception' (only the unrecognised ones)
+	a. replace 'QMSBackendClient' with the entire project in 'QMSClient'
+	b. replace all unrecognised 'Exception' with 'System.Exception' (only the unrecognised ones)
 	c. comment the lines: 244-252, 266 (VS -> TOOLS -> Options... -> Text Editor -> All Languages -> General -> Line numbers)
 	   its basically all the lines under: 'Check if PreloadMode is Restricted, if so get the dates'
 	   and the Console.WriteLine with 'preloadMode, loadedDays, between' (or just edit the line)
 	d. build and run the project!
 	e. didn't work? 'Service key is missing', go to fifth step.
+	f. if you want a nicer solution for dosc see 'http://community.qlik.com/docs/DOC-3649'
 	
 fifth step
 -----------
@@ -67,3 +68,16 @@ fifth step
 and Wallah! Enjoy!
 ------------------
 ![Screenshot of example application](https://raw.github.com/yakirmanor/qv-user-manager/master/images/screenshot2.png)
+
+Wait
+----
+
+now you want to change some stuff, and you may want some documentation
+you can fing it in this git (under '\extras') or download it from:
+
+<http://community.qlik.com/docs/DOC-2683>
+
+you need to unblock it to read it like so:
+![Screenshot of example application](https://raw.github.com/yakirmanor/qv-user-manager/master/images/unblock.PNG)
+
+
