@@ -15,7 +15,7 @@ first step
 second step
 -----------
 
-	open the project in Visual Studio
+	open the solution explorer in Visual Studio
 	right click on 'QMSBackendService' and select 'Configure Service Reference...'
 	add the /Service to the link like so:
 	http://localhost:4799/QMS/Service 
@@ -24,7 +24,7 @@ second step
 third step
 -----------
 
-	again open the project in Visual Studio
+	again open the solution explorer
 	right click on 'QMSBackendService' and select 'Update Service Reference'
 	now build the project
 	and... oh no! so many bugs!!!
@@ -32,8 +32,8 @@ third step
 forth step
 -----------
 	
-	a. replace 'QMSBackendClient' in the entire project in 'QMSClient'
-	b. replace all unrecognised 'Exception' in 'System.Exception' (only the unrecognised ones)
+	a. replace 'QMSBackendClient' with the entire project in 'QMSClient'
+	b. replace all unrecognised 'Exception' with 'System.Exception' (only the unrecognised ones)
 	c. comment the lines: 244-252, 266 (VS -> TOOLS -> Options... -> Text Editor -> All Languages -> General -> Line numbers)
 	   its basically all the lines under: 'Check if PreloadMode is Restricted, if so get the dates'
 	   and the Console.WriteLine with 'preloadMode, loadedDays, between' (or just edit the line)
