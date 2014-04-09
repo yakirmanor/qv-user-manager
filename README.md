@@ -10,7 +10,7 @@ first step
 
 	download the code from braathen git
 	(you can download this code with all the updates but what's the fun in that...
-	plus braathen my update his code)
+	plus braathen may update his code)
 
 second step
 -----------
