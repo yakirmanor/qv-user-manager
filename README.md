@@ -68,3 +68,16 @@ fifth step
 and Wallah! Enjoy!
 ------------------
 ![Screenshot of example application](https://raw.github.com/yakirmanor/qv-user-manager/master/images/screenshot2.png)
+
+Wait
+----
+
+now you want to change some stuff, and you may want some documentation
+you can fing it in this git (under '\extras') or download it from:
+
+<http://community.qlik.com/docs/DOC-2683>
+
+you need to unblock it to read it like so:
+![Screenshot of example application](https://raw.github.com/yakirmanor/qv-user-manager/master/images/unblock.PNG)
+
+
