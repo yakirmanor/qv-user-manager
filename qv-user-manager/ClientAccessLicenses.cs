@@ -183,6 +183,42 @@ namespace qv_user_manager
             }
         }
 
+        public static void DocUsers()
+        {
+            try
+            {
+                // Initiate backend client
+                var backendClient = new QMSClient();
+
+                // Get a time limited service key
+                ServiceKeyClientMessageInspector.ServiceKey = backendClient.GetTimeLimitedServiceKey();
+
+                // Get available QlikView Servers
+                var serviceList = backendClient.GetServices(ServiceTypes.QlikViewServer);
+
+                // Loop through available servers
+                foreach (var server in serviceList)
+                {
+                    Console.WriteLine("Server: " + server.ID + ", Name:" + server.Name + ", Address:" + server.Address);
+                    Dictionary<string, List<string>> docsAndUsers = backendClient.GetQVSDocumentsAndUsers(server.ID,
+                        QueryTarget.Resource);
+                    foreach (string doc in docsAndUsers.Keys)
+                    {
+                        Console.Write("Document: " + doc + ", User(s):");
+                        foreach (string user in docsAndUsers[doc])
+                        {
+                            Console.Write(" " + user);
+                        }
+                        Console.Write("\n");
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine("An exception occurred: " + ex.Message);
+            }
+        }
+
         /// <summary>
         /// Remove CALs
         /// </summary>

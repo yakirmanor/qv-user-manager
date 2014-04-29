@@ -58,7 +58,7 @@ namespace qv_user_manager
             try
             {
                 var p = new OptionSet {
-                    { "l|list=", "List CALs, users or documents [{CAL|DMS|DOCS}]", v => list = v.ToLower() },
+                    { "l|list=", "List CALs, users or documents [{CAL|DMS|DOCS|DOCUSERS}]", v => list = v.ToLower() },
                     { "a|add=", "Add users or assign CALs [{CAL|DMS}]", v => add = v.ToLower() },
                     { "r|remove=", "Remove specified users or inactive CALs [{CAL|DMS}]", v => remove = v.ToLower() },
                     { "d|document=", "QlikView document(s) to perform actions on", v => docs = v.ToLower() },
@@ -157,6 +157,9 @@ namespace qv_user_manager
                     break;
                 case "calinfo":
                     ClientAccessLicenses.CalInfo();
+                    break;
+                case "docusers":
+                    ClientAccessLicenses.DocUsers();
                     break;
             }
 
